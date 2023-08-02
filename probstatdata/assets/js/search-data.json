@@ -2,163 +2,163 @@
     "doc": "About EK381",
     "title": "EK381: Probability, Statistics, and Data Science for Engineers",
     "content": ". The materials for EK381 were created by Professors David Castanon and Bobak Nazer at Boston University. ",
-    "url": "bobaknazer.github.io/probstatdata/about/#ek381-probability-statistics-and-data-science-for-engineers",
+    "url": "https://bobaknazer.github.io/about/#ek381-probability-statistics-and-data-science-for-engineers",
     "relUrl": "/about/#ek381-probability-statistics-and-data-science-for-engineers"
   },"1": {
     "doc": "About EK381",
     "title": "Motivation",
     "content": "It is becoming increasingly clear that the next generation of engineers will need to draw upon concepts and techniques from probability and statistics to tackle the challenges posed by uncertain, complex systems and large, high-dimensional data sets. This course is intended to give all engineering students a strong foundation in probability and statistics as well as an introduction to ideas from data analytics and machine learning. Any student that successfully completes this course will be well-prepared to take upper-electives in machine learning, data analytics, random processes, as well as any other course that draws heavily upon probabilistic reasoning. ",
-    "url": "bobaknazer.github.io/probstatdata/about/#motivation",
+    "url": "https://bobaknazer.github.io/about/#motivation",
     "relUrl": "/about/#motivation"
   },"2": {
     "doc": "About EK381",
     "title": "Concept Videos",
     "content": "This is a “flipped” class meaning that, prior to each lecture, students watch concept videos that introduce the main concepts and work through some basic examples. Lectures will be devoted towards working out more complex examples, developing high-level intuition, connecting concepts to engineering applications, and tying the math to computation and real datasets. ",
-    "url": "bobaknazer.github.io/probstatdata/about/#concept-videos",
+    "url": "https://bobaknazer.github.io/about/#concept-videos",
     "relUrl": "/about/#concept-videos"
   },"3": {
     "doc": "About EK381",
     "title": "Exploring Data",
     "content": "One of the most important modern applications of probability is machine learning. For the EK381 capstone project, you will create a machine learning system for classifying cat and dog images. The dataset and supporting MATLAB and Python code will be available on this website soon. ",
-    "url": "bobaknazer.github.io/probstatdata/about/#exploring-data",
+    "url": "https://bobaknazer.github.io/about/#exploring-data",
     "relUrl": "/about/#exploring-data"
   },"4": {
     "doc": "About EK381",
     "title": "About EK381",
     "content": " ",
-    "url": "bobaknazer.github.io/probstatdata/about/",
+    "url": "https://bobaknazer.github.io/about/",
     "relUrl": "/about/"
   },"5": {
     "doc": "Exam Review",
     "title": "Exam Review Materials",
     "content": " ",
-    "url": "bobaknazer.github.io/probstatdata/exams/#exam-review-materials",
+    "url": "https://bobaknazer.github.io/exams/#exam-review-materials",
     "relUrl": "/exams/#exam-review-materials"
   },"6": {
     "doc": "Exam Review",
     "title": "Exam 1",
     "content": "Covers Chapters 1, 2 Review SlidesExam 1 Review Slides Formula Sheet Exam 1 Formula SheetPractice Exams (1A Problems) (1A Solutions) (1B Problems) (1B Solutions) (1C Problems) (1C Solutions) (1D Problems) (1D Solutions) . ",
-    "url": "bobaknazer.github.io/probstatdata/exams/#exam-1",
+    "url": "https://bobaknazer.github.io/exams/#exam-1",
     "relUrl": "/exams/#exam-1"
   },"7": {
     "doc": "Exam Review",
     "title": "Exam 2",
     "content": "Covers Chapters 3, 4, 5 Review Slides Exam 2 Review Slides Formula Sheet Exam 2 Formula SheetPractice Exams (2A Problems) (2A Solutions) (2B Problems) (2B Solutions) (2C Problems) (2C Solutions) (2D Problems) (2D Solutions) . ",
-    "url": "bobaknazer.github.io/probstatdata/exams/#exam-2",
+    "url": "https://bobaknazer.github.io/exams/#exam-2",
     "relUrl": "/exams/#exam-2"
   },"8": {
     "doc": "Exam Review",
     "title": "Exam 3",
     "content": "Covers Chapters 6, 7, 8, 9, 10, 11 Review Slides Exam 3 Review Slides Formula Sheet Exam 3 Formula SheetPractice Exams (3A Problems) (3A Solutions) (3B Problems) (3B Solutions) (3C Problems) (3C Solutions) (3D Problems) (3D Solutions) . ",
-    "url": "bobaknazer.github.io/probstatdata/exams/#exam-3",
+    "url": "https://bobaknazer.github.io/exams/#exam-3",
     "relUrl": "/exams/#exam-3"
   },"9": {
     "doc": "Exam Review",
     "title": "Exam Review",
     "content": " ",
-    "url": "bobaknazer.github.io/probstatdata/exams/",
+    "url": "https://bobaknazer.github.io/exams/",
     "relUrl": "/exams/"
   },"10": {
     "doc": "Syllabus + Resources",
     "title": "EK381 Syllabus and Resources",
     "content": " ",
-    "url": "bobaknazer.github.io/probstatdata/#ek381-syllabus-and-resources",
+    "url": "https://bobaknazer.github.io/#ek381-syllabus-and-resources",
     "relUrl": "/#ek381-syllabus-and-resources"
   },"11": {
     "doc": "Syllabus + Resources",
     "title": "1. Foundations of Probability",
     "content": "Book Chapter 1. FoundationsHandout Formulas 1. Foundations . Video 1.1 Set Theory 1.1 PDF Slides Video 1.2 Probability Axioms 1.2 PDF Slides Video 1.3 Conditional Probability - Concepts 1.3 PDF Slides Video 1.4 Conditional Probability - Examples 1.4 PDF Slides Video 1.5 Independence 1.5 PDF Slides Video 1.6 Counting 1.6 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#1-foundations-of-probability",
+    "url": "https://bobaknazer.github.io/#1-foundations-of-probability",
     "relUrl": "/#1-foundations-of-probability"
   },"12": {
     "doc": "Syllabus + Resources",
     "title": "2. Discrete Random Variables",
     "content": "Book Chapter 2. Discrete RVsHandout Formulas 2. Discrete RVs . Video 2.1 Discrete Random Variables 2.1 PDF Slides Video 2.2 Cumulative Distribution Function 2.2 PDF Slides Video 2.3 Expectation for Discrete RVs 2.3 PDF Slides Video 2.4 Variance for Discrete RVs 2.4 PDF Slides Video 2.5 Important Families of Discrete RVs 2.5 PDF Slides Video 2.6 Conditioning for Discrete RVs 2.6 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#2-discrete-random-variables",
+    "url": "https://bobaknazer.github.io/#2-discrete-random-variables",
     "relUrl": "/#2-discrete-random-variables"
   },"13": {
     "doc": "Syllabus + Resources",
     "title": "3. Continuous Random Variables",
     "content": "Book Chapter 3. Continuous RVsHandout Formulas 3. Continuous RVs . Video 3.1 Continuous Random Variables 3.1 PDF Slides Video 3.2 Expectation and Variance for Continuous RVs 3.2 PDF Slides Video 3.3 Important Families of Continuous RVs 3.3 PDF Slides Video 3.4 Conditioning for Continuous RVs 3.4 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#3-continuous-random-variables",
+    "url": "https://bobaknazer.github.io/#3-continuous-random-variables",
     "relUrl": "/#3-continuous-random-variables"
   },"14": {
     "doc": "Syllabus + Resources",
     "title": "4. Pairs of Random Variables",
     "content": "Book Chapter 4. Pairs of RVsHandout Formulas 4. Pairs of RVs . Video 4.1 Pairs of Discrete RVs 4.1 PDF Slides Video 4.2 Conditional PMF 4.2 PDF Slides Video 4.3 Pairs of Continuous RVs 4.3 PDF Slides Video 4.4 Conditional PDF 4.4 PDF Slides Video 4.5 Independence of RVs 4.5 PDF Slides Video 4.6 Expected Value of a Function of RVs 4.6 PDF Slides Video 4.7 Conditional Expectation 4.7 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#4-pairs-of-random-variables",
+    "url": "https://bobaknazer.github.io/#4-pairs-of-random-variables",
     "relUrl": "/#4-pairs-of-random-variables"
   },"15": {
     "doc": "Syllabus + Resources",
     "title": "5. Second-Order Analysis",
     "content": "Book Chapter 5. Second-Order AnalysisHandout Formulas 5. Second-Order Analysis . Video 5.1 Covariance 5.1 PDF Slides Video 5.2 Correlation Coefficient 5.2 PDF Slides Video 5.3 Jointly Gaussian RVs - Concepts 5.3 PDF Slides Video 5.4 Jointly Gaussian RVs - Examples 5.4 PDF Slides Video 5.5 Random Vectors 5.5 PDF Slides Video 5.6 Gaussian Vectors 5.6 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#5-second-order-analysis",
+    "url": "https://bobaknazer.github.io/#5-second-order-analysis",
     "relUrl": "/#5-second-order-analysis"
   },"16": {
     "doc": "Syllabus + Resources",
     "title": "6. Detection",
     "content": "Book Chapter 6. DetectionHandout Formulas 6. Detection . Video 6.1 Binary Hypothesis Testing - Concepts 6.1 PDF Slides Video 6.2 Binary Hypothesis Testing - Examples 6.2 PDF Slides Video 6.3 Likelihood Ratio 6.3 PDF Slides Video 6.4 Detection with Vector Observations 6.4 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#6-detection",
+    "url": "https://bobaknazer.github.io/#6-detection",
     "relUrl": "/#6-detection"
   },"17": {
     "doc": "Syllabus + Resources",
     "title": "7. Estimation",
     "content": "Book Chapter 7. EstimationHandout Formulas 7. Estimation . Video 7.1 MMSE Estimation 7.1 PDF Slides Video 7.2 Linear Estimation 7.2 PDF Slides Video 7.3 Vector Estimation 7.3 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#7-estimation",
+    "url": "https://bobaknazer.github.io/#7-estimation",
     "relUrl": "/#7-estimation"
   },"18": {
     "doc": "Syllabus + Resources",
     "title": "8. Sums of Random Variables",
     "content": "Book Chapter 8. Sums of Random VariablesHandout Formulas 8. Sums of Random Variables . Video 8.1 Sums of Random Variables 8.1 PDF Slides Video 8.2 Limits of Random Variables 8.2 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#8-sums-of-random-variables",
+    "url": "https://bobaknazer.github.io/#8-sums-of-random-variables",
     "relUrl": "/#8-sums-of-random-variables"
   },"19": {
     "doc": "Syllabus + Resources",
     "title": "9. Statistics",
     "content": "Book Chapter 9. StatisticsHandout Formulas 9. Statistics . Video 9.1 Confidence Intervals - Concepts 9.1 PDF Slides Video 9.2 Confidence Intervals - Examples 9.2 PDF Slides Video 9.3 Significance Testing - Concepts 9.3 PDF Slides Video 9.4 Significance Testing - Examples 9.4 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#9-statistics",
+    "url": "https://bobaknazer.github.io/#9-statistics",
     "relUrl": "/#9-statistics"
   },"20": {
     "doc": "Syllabus + Resources",
     "title": "10. Machine Learning",
     "content": "Book Chapter 10. Machine LearningHandout Formulas 10. Machine Learning . Video 10.1 Machine Learning - Overview 10.1 PDF Slides Video 10.2 Binary Classification 10.2 PDF Slides Video 10.3 Dimensionality Reduction 10.3 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#10-machine-learning",
+    "url": "https://bobaknazer.github.io/#10-machine-learning",
     "relUrl": "/#10-machine-learning"
   },"21": {
     "doc": "Syllabus + Resources",
     "title": "11. Markov Chains",
     "content": "Book Chapter 11. Markov ChainsHandout Formulas 11. Markov Chains . Video 11.1 Markov Chains 11.1 PDF Slides Video 11.2 State Vector and Transition Matrix 11.2 PDF Slides Video 11.3 State Classification 11.3 PDF Slides Video 11.4 Unique Limiting State Vector 11.4 PDF Slides ",
-    "url": "bobaknazer.github.io/probstatdata/#11-markov-chains",
+    "url": "https://bobaknazer.github.io/#11-markov-chains",
     "relUrl": "/#11-markov-chains"
   },"22": {
     "doc": "Syllabus + Resources",
     "title": "Syllabus + Resources",
     "content": " ",
-    "url": "bobaknazer.github.io/probstatdata/",
+    "url": "https://bobaknazer.github.io/",
     "relUrl": "/"
   },"23": {
     "doc": "Lecture Notes",
     "title": "Lecture Notes",
     "content": "EK381 Lecture Notes (Last updated August 2022) . ",
-    "url": "bobaknazer.github.io/probstatdata/lecturenotes/",
+    "url": "https://bobaknazer.github.io/lecturenotes/",
     "relUrl": "/lecturenotes/"
   },"24": {
     "doc": "Concept Videos",
     "title": "Concept Videos",
     "content": "Before each lecture, students watch videos that introduce new concepts along with worked examples. Here is the full YouTube playlist: . YouTube playlist URL: https://www.youtube.com/playlist?list=PLBV8cFFHvjMrrpoaRzHqu3dkCNZAiWMu2 . A full listing of the videos along with associated formula sheets and PDF slides can be found in the syllabus. ",
-    "url": "bobaknazer.github.io/probstatdata/videos/",
+    "url": "https://bobaknazer.github.io/videos/",
     "relUrl": "/videos/"
   },"25": {
     "doc": "Concept Videos",
     "title": "Video Principles",
     "content": ". | The format is inspired by the Sal Khan’s incredible set of videos that serve as the basis for the Khan Academy. | To hold visual attention, the videos use animated, accelerated handwriting combined with voiceover narration. (Acceleration is 4x for concepts and definitions, 2x for detailed examples). | Each video introduces a concept and works through one or two basic examples in detail. The content is essentially identical to what would be written on the chalkboard/whiteboard in a traditional lecture. PDFs for each completed “board” are made available alongside each video. | The videos move faster than a traditional lecture, which makes note-taking unrealistic. To compensate, detailed handouts with key definitions and formulas are made available in advance. | In-person lectures build on the videos by developing deeper intuition, studying real-life applications and datasets, and working through complex examples. | To recover the time spent outside the classroom watching videos, some part of the lecture is devoted solving homework problems, with guidance from the instructor and teaching fellows. | Colors are used to highlight and connect concepts. | Videos are permanently available on YouTube to serve as review material for subsequent courses. | . ",
-    "url": "bobaknazer.github.io/probstatdata/videos/#video-principles",
+    "url": "https://bobaknazer.github.io/videos/#video-principles",
     "relUrl": "/videos/#video-principles"
   },"26": {
     "doc": "Concept Videos",
     "title": "Video Production Workflow",
     "content": "The videos were created using the following tech setup: . | iPad Pro + Apple Pencil | Explain Everything iPad App | iMac + Quicktime | Blue Yeti Microphone | Adobe Premiere Pro | . Creating each video is a time-consuming process. Here is the overall workflow: . | Plan out the video. Specifically, make a draft document with all equations and examples in order to avoid typos and other mistakes. | Carefully and slowly write out the text and equations as well as the illustrations in the Explain Everything App. (Make many backups along the way.) | After all of the content has been added, delete the time gaps between pen strokes so that the writing flows smoothly. | Export the video as well as the corresponding PDF slides. (For the video, use the Explain Everything Compressor on the iMac rather than exporting directly from the iPad app.) | Using Adobe Premiere Pro, accelerate the concepts and definitions by 4x and the examples by 2x. Export the resulting accelerated video. | Using the iPad, display the PDF slides, and, on the iMac, open the accelerated video in QuickTime. | Play the video in QuickTime while making a screen recording and narrating into the microphone. Use the space button on a keyboard to pause the video to maintain synchronization. Prepare for upcoming content using the the PDF slides on the iPad. | Balance audio and complete final video edits in Adobe Premiere Pro. | Export to YouTube format and upload. | . ",
-    "url": "bobaknazer.github.io/probstatdata/videos/#video-production-workflow",
+    "url": "https://bobaknazer.github.io/videos/#video-production-workflow",
     "relUrl": "/videos/#video-production-workflow"
   }
 }
