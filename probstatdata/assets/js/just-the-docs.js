@@ -59,7 +59,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'https://bobaknazer.github.io/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://bobaknazer.github.io/probstatdata/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
