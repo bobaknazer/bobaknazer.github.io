@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript">
+</script>
+<link rel="stylesheet" href="ihp.css" type="text/css" />
+<title>Nexus of Information and Computation Theories  IHP Spring 2016 Thematic Program </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Nexus</div>
+<div class="menu-item"><a href="index.html">General&nbsp;Info</a></div>
+<div class="menu-item"><a href="participate.html"><b>How&nbsp;to&nbsp;Participate</b></a></div>
+<div class="menu-item"><a href="schedule.html"><b>Schedule</b></a></div>
+<div class="menu-item"><a href="titles.html"><b>Talk&nbsp;Info&nbsp;and&nbsp;Videos</b></a></div>
+<div class="menu-item"><a href="organization.html">Scientific&nbsp;Committee</a></div>
+<div class="menu-item"><a href="background.html" class="current">Scientific&nbsp;Background</a></div>
+<div class="menu-category">Jan 25 - 29</div>
+<div class="menu-item"><a href="tutorialabout.html">CIRM&nbsp;Tutorial&nbsp;Week</a></div>
+<div class="menu-category">Feb 1 - 12</div>
+<div class="menu-item"><a href="distcomp.html">Distributed&nbsp;Computation</a></div>
+<div class="menu-category">Feb 15 - 26</div>
+<div class="menu-item"><a href="inequalities.html">Fundamental&nbsp;Inequalities</a></div>
+<div class="menu-category">Feb 29 - Mar 4</div>
+<div class="menu-item"><a href="workshopabout.html">NICT&nbsp;Central&nbsp;Workshop</a></div>
+<div class="menu-category">Mar 7 - 18</div>
+<div class="menu-item"><a href="inference.html">Inference&nbsp;Problems</a></div>
+<div class="menu-category">Mar 21 - Apr 1</div>
+<div class="menu-item"><a href="secrecy.html">Secrecy&nbsp;and&nbsp;Privacy</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Nexus of Information and Computation Theories <br /> IHP Spring 2016 Thematic Program </h1>
+</div>
+<h2>Scientific Background</h2>
+<p>From its genesis in Claude Shannon’s seminal paper [10], information theory has provided the foundation for a powerful theory of communication. Most of the early efforts in information theory focused on developing theoretical bounds for reliable communication of a single message or efficient compression of a single data source. Typical questions the theory tried to answer were &lsquo;How much information can we store on a given support?’ or &lsquo;How much information can we transmit across a given channel?’. Over time, research efforts have turned towards a broader class of problems, many of which involve communication within a network of users. In turn, these problems lead to an intrinsic coupling of the issues of computation and communication. For instance, a widely studied question is &lsquo;How much infomation can be supported by a given network?’. A network is typically composed of nodes that can simply pass on their received information but also process this information, i.e. , compute a function of the incoming data, before transmission. Thus, in addition to the classical error correction problems where a certain message needs to be transmitted from point A to point B reliably, optimal network communication strategies involve also finding optimal data processing (computation) at the relay nodes.</p>
+<p>In parallel, research on the theory of computation has aimed at establishing bounds on a variety of computational problems and tasks. A variety of mathematical tools have been developed to classify computational problems into complexity classes such as \(\mathbf{P}\) and \(\mathbf{NP}\), and to understand the relationships between these problems [2]. In addition, various restricted computation models, such as the streaming model or the cell-probe model, which aim to capture the diverse aspects of practical computation have been developed. While most conjectures about the computational hardness of problems remain unanswered today, hinging on big open problems such as \(\mathbf{P} \stackrel{?}{=} \mathbf{NP}\), results in these restricted models of computation can often be proved unconditionally. One of the key technical tools in these proofs is that of communication complexity [6], which is closely related to problems studied in information theory.</p>
+<p>As it appears, we are in the midst of a partial convergence between the theories of information and computation, both in the sense of problems and analytical techniques.There is now a unique opportunity to bridge these two communities, encourage the sharing of ideas, and equip the next generation of researchers with tools to attack problems in both fields. Below, we discuss recent progress and outstanding challenges in some core topics, around which our thematic program is structured.</p>
+<p>Computation appears in quite a few interesting contexts within the broad problem of communication over networks. One natural question is how many bits must be exchanged by two (or more) users to compute a given function of their data. This problem is known as communication complexity in the computer science literature, distributed functional source coding in the information theory literature [8], and remains open in general. Its study involves quantities such as graph entropy (which also plays an important role in zero-error communication). It should be noted that the various formulations of this problem ignore complexity issues at both the transmitters and the receivers. Including a complexity component into these models would help understand tradeoffs between performance and complexity of communication protocols.</p>
+<p>An intriguing recent discovery is the implicit role of computation in multi-user communication, i.e. , network coding. As first shown by Ahlswede et al. [1], intermediate nodes in a network must send functions of their received messages in order to approach the capacity limits set out by the max-flow min-cut theorem. This insight continues to hold in the wireless context, especially when the interference between simultaneous transmissions is a major bottleneck. Very recently, it has been shown that interference can itself be harnessed for communication and computation, through the use of certain algebraic structures, such as nested lattices [12] and common invariant subspaces [5], as well as ideas from Diophantine approximation [7].</p>
+<p>A great deal of effort has gone into developing efficient algorithms that can attain the performance promised by information-theoretic capacity bounds. The state-of-the-art in this endeavor is the class of &lsquo;codes on graphs’ (e.g., low-density parity-check codes) coupled with message-passing algorithms (e.g., belief propagation) [3, 9]. Part of the analysis of these algorithms uses ideas from statistical physics (e.g., Ising models) and distributed computation (e.g., gossip algorithms).</p>
+<p>Within the theory of computation, much success has been attained in proving unconditional tight bounds on the complexity of problems within restricted models of computation. One such example is the streaming model, which models scenarios where the amount of data greatly exceeds the amount of memory available, such as in Internet routers. In the streaming model, the computer only gets a single pass over the data, before computing the output, and it does not have sufficient memory to store the entire input. Other examples include the cell-probe model for the complexity of implementing abstract data structures, the layout model for VLSI circuit design, and bounded-depth circuits which model extremely parallelized computation. Several technical tools have been developed for proving unconditional lower bounds. One of the most notable tools is that of communication complexity [6], which measures the amount of communication needed to compute a function whose inputs are distributed over a number of players. Lower bounds in communication complexity imply lower bounds in the aforementioned models of computation. Information-theoretic tools are instrumental in understanding communication complexity and proving upper and lower bounds. Information theory has also found several other important applications in theoretical computer science, most notably perhaps in combinatorics.</p>
+<p>Privacy and secrecy has garnered signicant recent interest from both the information theory and computer science communities. While the first formal results can be found in Shannon’s paper on secrecy [11], much of the later groundwork was laid by cryptographers within the computer science community using a different toolkit [4]. More recently, information-theoretic tools have re-emerged as a key method to prove secrecy bounds. Concurrently, the basic results of information-theoretic secrecy have been generalized to several interesting new problems, including secure multi-party computation and secret key generation.</p>
+<p>Overall, the time is ripe to bring these two communities together to share mathematical tools, develop a shared set of open problems and conceptual challenges, and break down the notational and language barriers that separate research topics.</p>
+<h2>References</h2>
+<ul>
+<li><p>[1]  R. Ahlswede, N. Cai, R. Li, and R.W. Yeung, Network information flow, IEEE Transactions on Information Theory 46 (2000), no. 4, pp. 1204–1216.</p>
+</li>
+<li><p>[2]  S. Arora and B. Barak, Computation complexity: A modern approach, Cambridge University Press, 2009.</p>
+</li>
+<li><p>[3]  R. G. Gallager, Low density parity check codes, MIT Press, Cambridge, MA, 1963.</p>
+</li>
+<li><p>[4]  Oded Goldreich, Foundations of cryptography, vol. 1 and 2, Cambridge University Press, Cambridge, UK, 2004.</p>
+</li>
+<li><p>[5]  Syed A. Jafar, Interference alignment – a new look at signal dimensions in a communication network, Foundations and Trends in Communications and Information Theory, vol. 7, NOW Publishers, 2011, pp. 1–134.</p>
+</li>
+<li><p>[6]  E. Kushilevitz and N. Nisan, Communication complexity, Cambridge University Press, 1997.</p>
+</li>
+<li><p>[7]  A. S. Motahari, S. O. Gharan, Mohammad-Ali Maddah-Ali, and Amir Keyvan Khandani, Real interference alignment: Exploiting the potential of single antenna systems, IEEE Transactions on Information Theory 60 (2014), no. 8, pp. 4799-4810.</p>
+</li>
+<li><p>[8]  Alon Orlitsky and James R. Roche, Coding for computing, IEEE Transactions on Information Theory 47 (2001), no. 3, 903–917.</p>
+</li>
+<li><p>[9]  T. Richardson and R. Urbanke, Modern coding techniques, Cambridge University Press, 2008.</p>
+</li>
+<li><p>[10]  C. E. Shannon, A mathematical theory of communication, Bell Sys. Tech. J. 27 (1948), 379–423.</p>
+</li>
+<li><p>[11]  Claude E. Shannon, Communication theory of secrecy systems, Bell System Tech- nical Journal 28 (1949), no. 4, 656–715.</p>
+</li>
+<li><p>[12] Ram Zamir, Lattices are everywhere, Proceedings of the 4th Annual Workshop on Information Theory and its Applications (ITA 2009) (La Jolla, CA), February 2009</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-05-15 18:58:36 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62001519-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

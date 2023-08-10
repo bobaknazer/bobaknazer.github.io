@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript">
+</script>
+<link rel="stylesheet" href="ihp.css" type="text/css" />
+<title>Nexus of Information and Computation Theories  Central Workshop  February 29 &ndash; March 4, 2016</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Nexus</div>
+<div class="menu-item"><a href="index.html">General&nbsp;Info</a></div>
+<div class="menu-item"><a href="participate.html"><b>How&nbsp;to&nbsp;Participate</b></a></div>
+<div class="menu-item"><a href="schedule.html"><b>Schedule</b></a></div>
+<div class="menu-item"><a href="titles.html"><b>Talk&nbsp;Info&nbsp;and&nbsp;Videos</b></a></div>
+<div class="menu-item"><a href="organization.html">Scientific&nbsp;Committee</a></div>
+<div class="menu-item"><a href="background.html">Scientific&nbsp;Background</a></div>
+<div class="menu-category">Jan 25 - 29</div>
+<div class="menu-item"><a href="tutorialabout.html">CIRM&nbsp;Tutorial&nbsp;Week</a></div>
+<div class="menu-category">Feb 1 - 12</div>
+<div class="menu-item"><a href="distcomp.html">Distributed&nbsp;Computation</a></div>
+<div class="menu-category">Feb 15 - 26</div>
+<div class="menu-item"><a href="inequalities.html">Fundamental&nbsp;Inequalities</a></div>
+<div class="menu-category">Feb 29 - Mar 4</div>
+<div class="menu-item"><a href="workshopabout.html" class="current">NICT&nbsp;Central&nbsp;Workshop</a></div>
+<div class="menu-category">Mar 7 - 18</div>
+<div class="menu-item"><a href="inference.html">Inference&nbsp;Problems</a></div>
+<div class="menu-category">Mar 21 - Apr 1</div>
+<div class="menu-item"><a href="secrecy.html">Secrecy&nbsp;and&nbsp;Privacy</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Nexus of Information and Computation Theories <br /> Central Workshop <br /> February 29 &ndash; March 4, 2016</h1>
+</div>
+<h3>Titles and Abstracts</h3>
+<p><a name="Bauwens"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Bruno Bauwens</b> (Higher School of Economics)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/ZZNgGT35ZMI?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Asymmetry of online Kolmogorov complexity</i> <br /><br /> Abstract: In order for a source to reveal a string \(x\), it needs to store at least \(C(x)\) bits of information (\(C(x)\) represents the Kolmogorov complexity). Imagine, two sources need to reveal complementary parts of \(x\) in two stages: a first machine writes some bits of \(x\) on a common communication tape, and afterwards, a second machine writes the remaining bits. Symmetry of information implies that with an optimal encoding the total amount of bits stored in both sources can be as small as \(C(x)\). We show that if the sources need to reveal their information about \(x\) in small chunks in alternating turns, symmetry of information is violated: it might happen that both sources need to store almost all information about \(x\). We also show that the order in which the small chunks of information is revealed is important. The results can be connected to a rather speculative application to the inference of causal relations in time series.</p>
+</div></div>
+<p><a name="Braverman"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Vladimir Braverman</b> (Johns Hopkins)<br /> <b>Stephen Chestnut</b> (ETH Zurich)<br /> <b>David Woodruff</b> (IBM Almaden) <br /> <b>Nikita Ivkin</b> (Johns Hopkins)<br /> <i>Beating CountSketch for Heavy Hitters in Insertion Streams</i> <br /> <br /> Abstract: Given a stream \(p_1, \ldots, p_m\) of items from a universe 
+\(\mathcal{U}\), which, without loss of generality we identify with 
+the set of integers \(\{1, 2, \ldots, n\}\), 
+we consider the problem of returning all 
+\(\ell_2\)-heavy hitters, i.e., those items \(j\) for which 
+\(f_j \geq \epsilon \sqrt{F_2}\), where \(f_j\) is the number of occurrences 
+of item \(j\) in the stream, and \(F_2 = \sum_{i \in [n]} f_i^2\). 
+Such a guarantee is considerably stronger than the 
+\(\ell_1\)-guarantee, which finds those \(j\) for which 
+\(f_j \geq \epsilon m\). In 
+2002, Charikar, Chen, and Farach-Colton suggested the \(\mathsf{CountSketch}\) 
+data structure, which finds all such \(j\) using \(\Theta(\log^2 n)\) bits of space 
+(for constant \(\epsilon &gt; 0\)). The only 
+known lower bound is \(\Omega(\log n)\) bits of space, which comes from 
+the need to specify the identities of the items found. </p>
+<p>In this paper we show it is possible to achieve \(O(\log n \log \log n)\) bits of space for this problem. 
+Our techniques, based on Gaussian processes, lead to a number of other new results for data streams, including </p>
+<ul>
+<li><p>The first algorithm 
+for estimating \(F_2\) simultaneously at all points in a stream 
+using only \(O(\log n\log\log n)\) bits of space, improving 
+a natural union bound and the algorithm of Huang, Tai, and Yi (2014). </p>
+</li>
+<li><p>A way to estimate the \(\ell_{\infty}\) norm of a stream up to 
+additive error \(\epsilon \sqrt{F_2}\) with \(O(\log n\log\log n)\) bits of space, resolving Open Question 3 from the IITK 2006 list for insertion only streams. 
+end{enumerate}</p>
+</li>
+</ul>
+</div></div>
+<p><a name="Chestnut"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Jarosław Błasiok</b> (Harvard University) <br /> <b>Vladimir Braverman</b> (Johns Hopkins University) <br /> <b>Stephen Chestnut</b> (ETH Zurich)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/i6GXEueQPMg?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <b>Robert Krauthgamer</b> (Weizmann Institute of Science) <br /> <b>Lin Yang</b> (Johns Hopkins University) <br /> <i>Streaming Symmetric Norms via Measure Concentration</i>  <br /><br /> Abstract: We characterize the streaming space complexity of every symmetric norm \(l\) (a norm on \(\mathbb{R}^n\) invariant under sign-flips and coordinate-permutations), by relating this space complexity to the measure-concentration characteristics of \(l\). Specifically, we provide upper and lower bounds on the space complexity of approximating the norm of the stream, where both bounds depend on the median of \(l(x)\) when \(x\) is drawn uniformly from the \(l_2\) unit sphere. The same quantity governs many phenomena in high-dimensional spaces, such as large-deviation bounds and the critical dimension in Dvoretzky's Theorem. The family of symmetric norms contains several well-studied norms, such as all \(l_p\) norms, and indeed we provide a new explanation for the disparity in space complexity between \(p \leq 2\) and \(p&gt;2\). In addition, we apply our general results to easily derive bounds for several norms were not studied before in the streaming model, including for example the top-k norm and the k-support norm, which was recently shown to be effective for machine learning tasks. Overall, these results make progress on two outstanding problems in the area of sublinear algorithms (Problems 5 and 30 at <a href="http://sublinear.info" target=&ldquo;blank&rdquo;>sublinear.info</a>).</p>
+</div></div>
+<p><a name="Como"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Giacomo Como</b> (Lund University)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/LqKlyI43WhY?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <b>Fabio Fagnani</b> (Politecnino di Torino) <br /> <b>Wilbert Samuel Rossi</b> (University of Twente) <br /> <i>Resilient control of dynamic flow networks</i> <br /> <br /> Abstract: This talk focuses on distributed control of dynamical flow networks. These are modeled as dynamical systems derived from mass conservation laws on directed capacitated networks. The flow evolution through the network is governed by routing and flow control policies within constraints imposed by the network infrastructure and physical laws. Depending on the application (e.g., transportation or distribution networks), such policies are meant to represent local controls, drivers’ behavior, or a combination of the two. Versions of these models include cascading failures mechanisms, whereby overloaded links become inactive and potentially induce the overload and failure of other nodes and links in the network. We focus on efficiency, resilience, and scalability. First, we show that optimal resilience can be achieved by local feedback policies that require no global knowledge of the network. Then, we prove how optimal equilibrium selection and optimal control of the transient behavior can be cast as convex problems which are amenable to distributed solutions. Finally, we study multi-scale flow dynamics and the use of toll mechanisms to influence users&rsquo; behaviors.</p>
+</div></div>
+<p><a name="Effros"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Michelle  Effros</b> (California Institute of Technology)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/W57Vdm_CUiI?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Reduction for Information Theory</i> <br /> <br /> Abstract: Reduction arguments, long a mainstay of the computation theory literature,  provide powerful tools for proving information theoretic results.  In computation theory, reduction is used to relate solutions to distinct problems in order to compare their respective complexities.  In information theory, reduction can be used to relate solutions to distinct network communication problems in order to compare their respective capacities. This talk will highlight both the technique and some examples of its application.</p>
+</div></div>
+<p><a name="Fawzi"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Siddharth Barman</b> (IISc Bangalore) <br /> <b>Omar Fawzi</b> (ENS Lyon)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/MOTqTDgxawE?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Algorithmic Aspects of Optimal Channel Coding</i> <br /> <br /> Abstract: A central question in information theory is to determine the maximum success probability that can be achieved in sending a fixed number of messages over a noisy channel. This was first studied in the pioneering work of Shannon who established a simple expression characterizing this quantity in the limit of multiple independent uses of the channel. Here we consider the general setting with only one use of the channel. We observe that the maximum success probability can be expressed as the maximum value of a submodular function. Using this connection, we establish the following results: </p>
+<ol>
+<li><p>There is a simple greedy polynomial-time algorithm that computes a code achieving a \((1-1/e)\)-approximation of the maximum success probability. Moreover, for this problem it is NP-hard to obtain an approximation ratio strictly better than \((1-1/e)\). </p>
+</li>
+<li><p>Shared quantum entanglement between the sender and the receiver can increase the success probability by a factor of at most \(1/(1-1/e)\). In addition, this factor is tight if one allows an arbitrary non-signaling box between the sender and the receiver. </p>
+</li>
+<li><p>We give tight bounds on the one-shot performance of the meta-converse of Polyanskiy-Poor-Verdu.</p>
+</li>
+</ol>
+</div></div>
+<p><a name="Garg"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Mark Braverman</b> (Princeton) <br /> <b>Ankit Garg</b> (Princeton)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/cJdTu5sSIXY?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <b>Tengyu Ma</b> (Princeton) <br /> <b>Huy Nguyen</b> (TTI Chicago) <br /> <b>David Woodruff</b> (IBM Almaden)<br /> <i>Communication Lower Bounds for Statistical Estimation Problems via a Distributed Data Processing Inequality</i> <br /> <br /> Abstract: We study the tradeoff between the statistical error and communication cost of distributed statistical estimation problems in high dimensions. For the case of Gaussian distributions, we provide tight tradeoffs (up to logarithmic factors) between the estimation error and the communication required, for both sparse and dense mean estimation. The main tool is strong data processing inequalities, which are well studied in the information theory literature. We generalize these to distributed data processing inequalities.</p>
+</div></div>
+<p><a name="Gelles"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Mark Braverman</b> (Princeton) <br /> <b>Klim Efremenko</b> (Weizmann Institute) <br /> <b>Ran Gelles</b> (Princeton)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/2-d-HDUP8vQ?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <b>Bernhard Haeupler</b> (Carnegie Mellon University)<br /> <i>Constant-rate coding for multiparty interactive communication is impossible</i> <br /> <br /> Abstract: We study coding schemes for multiparty interactive communication over synchronous networks that suffer from stochastic noise, where each bit is independently flipped with probability \(\epsilon\). We analyze the minimal overhead that must be added by the coding scheme in order to succeed in performing the computation despite the noise. </p>
+<p>Our main result is a lower bound on the communication of any noise-resilient protocol over a star network with \(n\)-parties. Specifically, we show a task that can be solved by communicating \(Tn\) bits over the noise-free network, but for which any protocol with success probability of \(1-o(1)\) must communicate at least \(\Omega(Tn \frac{\log n}{\log\log n})\) bits when the channels are noisy. By a 1994 result of Rajagopalan and Schulman, the slowdown we prove is the highest one can obtain on any topology, up to a \(\log \log n\) factor. </p>
+<p>We complete our lower bound with a matching coding scheme that achieves the same overhead; thus, the capacity of star networks is \(\Theta(\log\log n /\log n)\). Our bounds prove that, despite several previous coding schemes with rate \(\Omega(1)\) for certain topologies, no coding scheme with constant rate \(\Omega(1)\) exists for arbitrary \(n\)-party noisy networks.</p>
+</div></div>
+<p><a name="Jaggi1"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Sidharth Jaggi</b> (CUHK) &nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/-teJczbUv9w?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Deniable/covert/stealthy/LPD communication</i> <br /> <br /> Abstract: The urge to communicate, to speak and be heard, is a fundamental human need. However, embedded within our increasingly sophisticated communication networks, Big Brother is often watching. There are situations where even the fact that communication is happening (not just the content of that communication), can have real-world consequences. For instance, if you are a politically active citizen in an authoritarian society with broad censorship powers, the mere fact that you are communicating with the outside world can be construed by those authorities as sufficient justification for reprisals. </p>
+<p>There has been a flurry of recent work in the information theory community dealing with this problem. In general, this problem encompasses models of communication with dual goals. Firstly, all communication from the source (Alice) to the destination (Bob) should be reliable, i.e., the communication protocol should be resilient to random noise, and perhaps even active jamming. Secondly, if the communication is overheard by a third party (Eve), it should be deniable from Eve. That is, not only should Eve should not learn anything about the source’s message, in fact Eve should not even be able to reliably decide whether or not the source is indeed communicating to Bob. To be able to instantiate such deniability in communication, there need to be asymmetries that might exist between Bob and Eve (for instance, perhaps the noise on the channel to Eve is higher than the noise on the channel to Bob, or perhaps Eve observes only a subset of the transmissions that Bob does). </p>
+<p>The tools used are typically information-theoretic and/or coding-theoretic in nature. Typically, deniability is formally defined in terms of a hypothesis-testing metric, and then one demands that the communication protocol that is reliable to Bob also have “high deniability”, regardless of Eve’s estimation strategy. Recently, in various communication settings (wired, wireless and quantum channels/networks), fundamental bounds on optimal rates for deniable communication, and also complementary schemes that are close to optimal.</p>
+</div></div>
+<p><a name="Jaggi2"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Sidharth Jaggi</b> (CUHK)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/jMXyVXvyJn4?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br />
+<i>Between Shannon and Hamming: Codes against limited adversaries</i> <br /><br /> Abstract: An adversary wishes to corrupt stored (or transmitted) data, but operates in an information-limited manner. Examples of such limitations may include only viewing some subset of the data or some noisy version of it, viewing those subsets causally, or with the encoder getting feedback about the corruption. We determine the capacity of some classes of such channels, and computationally efficient schemes achieving these capacities in some models (in particular over &ldquo;large alphabets&rdquo;). This is an overview of a long line of classical results, and also work done over the last few years (with an emphasis on a flurry of recent results) in collaboration Bikash Kumar Dey, Anand Dilip Sarwate, Michael Langberg, Zitan Chen, Mayank Bakshi, Qiaosheng Zhang (Eric), Alex Sprintson, and Swanand Kadhe.</p>
+</div></div>
+<p><a name="Kerenidis"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Iordanis Kerenidis</b> (Universit&eacute Paris Diderot 7)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/z4y5nDpQnpk?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>How can we separate Information and Communication complexity?</i> <br /> <br /> Abstract: How far can the information complexity of a function be from its communication complexity? We examine what currently known techniques might be used to show a separation between the two notions. First, we show that information complexity is larger than the relaxed partition bound and hence larger than most known communication lower bound techniques. Then, we look at relative discrepancy, which was recently used by Ganor et al. to provide a separation between information and communication for a specific input distribution, where on input of size n, the communication is logn, while the information is loglogn. We show that in the non-distributional setting, the relative discrepancy bound is, in fact, smaller than the information complexity, and hence it cannot be used to separate information and communication complexity. In addition, in the distributional case, we provide an equivalent linear program formulation for relative discrepancy and relate it to variants of the partition bound. </p>
+</div></div>
+<p><a name="Krauthgamer"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Robert Krauthgamer</b> (Weizmann Institute of Science) <br />
+<i>Sketching Graphs and Combinatorial Optimization</i> <br /> <br /> Abstract: Graph-sketching algorithms summarize an input graph G in a manner that suffices to later answer (perhaps approximately) a host of optimization problems on G, like distances, cuts, and matchings. Many of the known algorithms are based on edge and vertex sparsification, as well as techniques from data streams and compressed sensing. Lower bounds often rely on communication complexity or information theory.</p>
+<p>I plan to survey this emerging topic, paying special attention to to
+characterizing the tradeoff between accuracy and sketch size.</p>
+</div></div>
+<p><a name="Kuznetsov"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Petr Kuznetsov</b> (T&eacutel&eacutecom Paristech)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/C3c_gVzHbzo?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Combinatorial Structures for Distributed Computing Models</i> <br /> <br /> Abstract: The main complication in the analysis of distributed systems is the immense diversity of distributed computing models, combined with the lack of mathematical tools to handle this complexity. In this talk, we discuss how to characterize the computability power of a large class of models via properties of the corresponding simplicial complexes, combinatorial structures capturing representative sets of model executions.</p>
+</div></div>
+<p><a name="Milenkovic"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Gregory Puleo</b> (University of Illinois) <br /> <b>Olgica Milenkovic</b> (University of Illinois)<br /> <i>New Directions in Correlation Clustering and Biclustering</i> <br /> <br /> Abstract: The correlation clustering problem was introduced by Bansal, Blum, and Chawla in 2004, and in the most basic form of the clustering model, one is given a set of objects and, for some pairs of objects, one is also given an assessment as to whether the objects are “similar” or “dissimilar”. This information is described using a graph G with labeled edges: each object is represented by a vertex of the graph, and the assessments are represented by edges labeled with either a \(+\) (for similar objects) or a \(−\) (for dissimilar objects). The goal is to partition the objects into clusters so that the edges within clusters are mostly positive and the edges between clusters are mostly negative. Unlike many other clustering models, such as k-means, the number of clusters is not fixed ahead of time. Instead, finding the optimal number of clusters is part of the problem. </p>
+<p>We introduce two new instances of the clustering problem for weighed graphs and bipartite graphs with applications in data deduplication, bioinformatics and recommender systems. The first instance refers to weighted correlation clustering with softly bounded cluster sizes, while the second instance refers to minimax correlation clustering. For the former problem, we propose both an LP and pivoting method for constant approximation of the solution, while in the later case we both prove the hardness of the problems and describe constant approximation algorithms. We illustrate the utility of our algorithms on practical datasets involving cancer driver networks constructed using the TCGA database.</p>
+</div></div>
+<p><a name="Moran"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Shay Moran</b> (Technion)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/fZX1tu1X_Bs?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /><i>The information theoretic lower bound for comparison based sorting is (almost) tight, even when there is an arbitrary known distribution on the input array.</i> <br /><br /> Abstract: I will discuss the classical problem of 
+sorting \(n\) elements when the input array is drawn from
+an arbitrary known distribution and the goal is
+to minimize the expected number of comparisons.
+I will present a simple variant of insertion sort
+which provides tight upper bound:
+If \(\mu\) is a distribution on permutations on \(n\) elements,
+then one may sort inputs from \(\mu\) with expected number of comparisons
+that is at most \(H(\mu) + 2n\),
+where \(H\) is the entropy function.
+The algorithm uses less comparisons
+for more probable inputs: For every permutation \(\pi\),
+the algorithm sorts \(\pi\) by using at most
+\(\log_2(\frac{1}{\Pr_\mu(\pi)})+2n\) comparisons.
+A lower bound on the expected number of comparisons
+of \(H(\mu)\) always holds, and a linear dependence on \(n\) is also required.</p>
+<p>I will also suggest directions for further research. The talk is based on a joint work with Amir Yehudayoff.</p>
+</div></div>
+<p><a name="Ozgur"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Xiugang Wu</b> (Stanford) <br /> <b>Ayfer &Oumlzg&uumlr</b> (Stanford)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/1NstOmFJMk4?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Improving on the cutset bound via a geometric analysis of typical sets</i> <br /> <br /> Abstract: The cut-set bound developed by Cover and El Gamal 
+in 1979 has since remained the best known upper bound on the 
+capacity of the Gaussian relay channel. We develop a new upper 
+bound on the capacity of the Gaussian primitive relay channel 
+which is tighter than the cut-set bound. Combined with a simple tensorization argument proposed by Courtade and Ozgur in 2015, our result also implies that the current capacity approximations for Gaussian relay networks, which have linear gap to the cut-set bound in the number of nodes, are order-optimal and leads to a lower bound on the preconstant. </p>
+<p>The more important contribution of this talk is to propose a new converse technique which significantly differs from existing approaches in the literature and can be potentially useful for other multi-user problems. In general, proving an upper bound on the capacity of a multi-user channel involves 
+dealing with information inequalities between the random variables induced by the reliable code and the channel structure. To prove such information inequalities, in this talk we use typicality arguments and concentration 
+of measure. We believe the talk can be of significant interest to workshop 
+participants as it proposes a new way to prove information inequalities 
+and a new application of concentration of measure inequalities in information-theoretic problems, besides traditional applications such as proving strong converses for multi-user problems.</p>
+</div></div>
+<p><a name="Raginsky"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Maxim Raginsky</b> (University of Illinois)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/IMt_6xY-x24?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Information-Theoretic Lower Bounds for Distributed Function Computation</i> <br /> <br /> Abstract: In this talk, based on joint work with Aolin Xu, I will describe a general information-theoretic methodology for deriving lower bounds on the minimum time required by any scheme for distributed function computation over a network of point-to-point channels with finite capacity to achieve a given accuracy with a given probability. The main ingredients are:</p>
+<ol>
+<li><p>A lower bound on conditional mutual information via so-called small ball probabilities, which captures the influence on the computation time of the joint distribution of the initial observations at the nodes, the structure of the function, and the desired level of accuracy.</p>
+</li>
+<li><p>An upper bound on conditional mutual information via strong data processing inequalities, which complements and strengthens the usual cutset-capacity upper bounds.</p>
+</li>
+<li><p>A multi-cutset analysis that quantifies the dissipation of information as it flows across a succession of cutsets in the network. This analysis is based on reducing a general network to a bidirected chain, and the results highlight the dependence of the computation time on the diameter of the network, a fundamental parameter that has been missing from most of the existing results on distributed computation over networks of noisy channels.</p>
+</li>
+</ol>
+</div></div>
+<p><a name="Rotbart"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Noy Rotbart</b> (DIKU)<br /> <i>On labeling schemes, induced universal graphs, and one notorious conjecture</i> <br /> <br /> Abstract: In my talk, I will survey recent results in labeling schemes, and will discuss three open problems in the field. I will also introduce the main conjecture of the field, and new results concerning progress on attempts to prove/disprove it.  In particular, I will present a novel result on co-graphs, and reveal interesting connections between two bodies of work that are unaware of each other.</p>
+</div></div>
+<p><a name="Ryabko"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Boris Ryabko</b> (Institute of Computational Technology of Siberian Branch of Russian Academy of Science)<br /> <i>An information-theoretic approach to estimate the capacity of computers and similar devices.</i> <br /> <br /> Abstract: We describe a concept of computer capacity, which give a possibility to compare computers with different sets of instructions, different kinds of memory and different numbers of cores. A simple method of estimation of the computer capacity is presented. The suggested methods can be generalized to devices similar to computer processors(like processors of mobile telephones,etc.) We calculated the computer capacity for different computers and supercomputers compared the results with those of the recognized benchmarks. The obtained results showed that the notion of computer capacity is a reasonable estimation of the computer performance.
+(The main idea of the suggested approach was described in: Boris Ryabko , An information-theoretic approach to estimate the capacity of processing units. Performance Evaluation, 69 (2012) pp. 267-273).</p>
+</div></div>
+<p><a name="Shamai"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Shlomo Shamai</b> (Technion)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/A1z-a2txlOI?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Information Theory: Old and New­ - A Personal View</i> <br /> <br /> Abstract: The presentation starts by demonstrating in a descriptive way the origin of information theory in Shannon's 1948 monumental work, and pointing some interdisciplinary aspects within general areas of electrical engineering and beyond. We discuss a change of paradigms in information theory from being a pure mathematical theory of communications to a theory with widescope direct practical implications and applications. To demonstrate the rich aspects of the problems considered and their implications as well as some inter-disciplinary connections, we focus on a simple matrix based linear additive Gaussian model. We elaborate on the information-estimation intimate connection, mentioning its impact on non-linear filtering and on recent views of efficient coding in single and multi-terminal channels. Possible extensions and a short outlook conclude the presentation.</p>
+</div></div>
+<p><a name="Shayevitz"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Ofer Shayevitz</b> (Tel Aviv University)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/XbpPBMRmk0A?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Zero-error capacity for multiuser channels</i> <br /> <br /> Abstract: The capacity of a point-to-point communication channel under a zero-error criterion was originally studied by Shannon in 1956. Despite the apparent simplicity of the problem, and in contrast to its epsilon-error counterpart, a full characterization of the zero-error capacity remains elusive even for very simple channel models.  Nevertheless, its study has had a significant influence on graph theory, and has led to some fascinating relations, constructions, and techniques. In this talk, I will briefly survey a few of the basic elements in this field, and then describe some recent work on the more general question of multiuser zero-error capacity in simple broadcast and multiple access models.</p>
+</div></div>
+<p><a name="Sundaresan"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Rajesh Sundaresan</b> (IISc)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/p_2GN9XJX2Q?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Learning to detect an oddball target</i> <br /> <br /> Abstract: This talk is motivated by a visual neuroscience problem where individual subjects are asked to identify an oddball target image among many distractors, but are not told the nature of the oddball and distractors images. The key feature here is that the oddball and distractor images are unknown a priori and have to be learnt along the way. We propose an information theoretic lower bound on the expected search time, and provide an asymptotically optimal strategy, where the asymptotics is as the probability of erroneous detection vanishes. Such problems are of interest to neuroscientists that work on quantifying the &ldquo;perceptual distance&rdquo; between objects in order to understand how objects are represented in our brains. I will briefly describe the connection at the beginning of the talk. </p>
+<p>This is joint work with Nidhin Koshy Vaidhiyan. More details can be found at
+<a href="http://arxiv.org/abs/1508.05572" target=&ldquo;blank&rdquo;>arXiv/1508.05572</a>.</p>
+</div></div>
+<p><a name="Wagner"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Ibrahim Issa</b> (Cornell) <br /> <b>Sudeep Kamath</b> (Princeton) <br /> <b>Aaron Wagner</b> (Cornell)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/ltvvfNuq4zM?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>An Operational Measure of Information Leakage</i> <br /> <br /> Abstract: Given two random variables \(X\) and \(Y\), a new measure \(\mathcal{L}(X;Y)\), 
+called emph{G-leakage}, is proposed to quantify the amount of information 
+that \(Y\) &lsquo;&lsquo;leaks’’ about \(X\). The measure is defined operationally as the 
+multiplicative increase, upon observing \(Y\), of the probability of correctly guessing a randomized function of \(X\), maximized over all such randomized 
+functions. G-leakage is inspired by both strong data processing inequalities in information theory and differential privacy in theoretical computer science, and it turns out to equal the Sibson mutual information of order 
+infinity, endowing the latter with an operational significance. Moreover, it is shown that the definition is robust in several respects: it is unchanged even if it is modified to allow for several guesses or if the guess only needs to be within a certain distance of the true function 
+value.</p>
+</div></div>
+<p><a name="Woodruff"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>David Woodruff</b> (IBM Almaden)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/jfbIYXLPiVw?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Sketching as a Tool for Numerical Linear Algebra</i> <br /> <br /> Abstract: We give near optimal algorithms for regression, low rank approximation, and robust variants of these problems. Our results are based on the sketch and solve paradigm, which is a tool for quickly compressing a problem to a smaller version of itself, for which one can then run a slow algorithm on the smaller problem. These lead to the fastest known algorithms for fundamental inference problems, which run in time proportional to the number of non-zero entries of the input. We first give algorithms for least squares regression, and robust variants such as \(l_p\) regression and M-Estimator loss functions. Then we give algorithms for approximate singular value decomposition, and robust variants such as minimizing sum of distances to a subspace, rather than sum of squared distances. </p>
+<p>The talk is based on work covered in my monograph of the same title in NOW Publishers, 2014, together with work in SODA &rsquo;15 and FOCS &rsquo;15 with Ken Clarkson.</p>
+</div></div>
+<p><a name="Yehudayoff"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Amir Yehudayoff</b> (Technion)&nbsp;&nbsp;&nbsp;(<a href="https://youtu.be/h_TeCgNIAzM?list=PL9kd4mpdvWcAXmqX4IYC4ttABKEZGxRqz#t=0s" target=&ldquo;blank&rdquo;>Video</a>)
+<br /> <i>Geometric stability via information theory</i> <br /> <br /> Abstract: Projection inequalities bound the volume of a body in terms of a product of the volumes of lower-dimensional projections of the body. Two well-known examples are the Loomis-Whitney inequality and the more general Uniform Cover inequality. We will see how to use information theory to prove stability versions of these inequalities, showing that when they are close to being tight, the body in question is close to being a box (which is the unique case of equality). We will also see how to obtain a stability result for the edge-isoperimetric inequality in the infinite d-dimensional lattice. Namely, that a subset of \(\mathbb{Z}^d\) with small edge-boundary must be close in symmetric difference to a \(d\)-dimensional cube. </p>
+<p>Based on work with David Ellis, Ehud Friedgut and Guy Kindler.</p>
+</div></div>
+<p><a name="Zaidi"> </a></p>
+<div class="infoblock">
+<div class="blockcontent">
+<p><b>Roy Timo</b> (Technische Universit&aumlt M&uumlnchen) <br /> <b>Abdellatif Zaidi</b> (Universit&eacute Paris-Est)<br /> <i>On Two Terminal Interactive Source Coding for Function Computation with Remote Sources</i> <br /> <br /> Abstract: We study a setting in which two terminals A and B respectively observe, or measure, noisy versions \(\tilde{X}\) and \(\tilde{Y}\) of two memoryless, possibly statistically dependent, remote sources \(X\) and \(Y\); and they interact bidirectionally in the aim of computing functions of the remote sources. Focusing on a distributed source coding formulation, we establish characterizations of the rate-distortion region and the minimum sum-rate for any finite number of messages. This generalizes Ma and Ishwar's two-terminal function computation result to the case of remote sources. Furthermore, in the case in which the computation is performed at only one side, we establish upper bounds on the maximum gain that can be brought up by the interaction in terms of the minimum sum rate improvement for a given average distortion. We also apply the results to some important special cases, thus allowing us to gain some fundamental insights on the benefits of the interaction for both lossless and lossy function computations in these cases.</p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2016-05-15 18:58:37 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62001519-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
